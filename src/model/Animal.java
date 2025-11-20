@@ -1,5 +1,9 @@
 package model;
 
-public class Animal {
+public abstract class Animal {
+	
+	public String emitirSom() {
+		
+	}
 
 }
