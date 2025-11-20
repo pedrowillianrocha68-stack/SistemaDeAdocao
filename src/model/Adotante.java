@@ -1,3 +1,4 @@
+package model;
 public class Adotante {
    private String nome; 
    private int idade; 
