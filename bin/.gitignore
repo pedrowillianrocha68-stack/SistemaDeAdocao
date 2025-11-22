@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 /controller/
 /model/
 /view/
+=======
+/Adotante.class
+/Animal.class
+/cachorro.class
+/view/
+/model/
+/Adocao.class
+>>>>>>> refs/heads/persistencia
