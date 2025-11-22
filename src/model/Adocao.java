@@ -3,7 +3,7 @@ package model;
 public class Adocao {
   private Adotante adotante;
   private Animal animal;
-}
+
 public Adocao(adotante adotante ,animal animal) {
 	this.adotante = adotante;
 	this.animal = animal;
