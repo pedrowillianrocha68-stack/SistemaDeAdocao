@@ -1,8 +1,7 @@
 package model;
 
 public interface CuidadosEspeciais {
-   void vacinar();
-   void vermifugar();
-	   
+     boolean vacinar();
+     boolean vermifugar();
 }
 
