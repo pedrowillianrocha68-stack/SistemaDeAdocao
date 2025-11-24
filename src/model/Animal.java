@@ -1,15 +1,24 @@
 package model; 
 
 public  abstract class Animal implements CuidadosEspeciais {
+   private int id;
    private String nome;
    private int idade;
    private boolean vacinado;
    private boolean vermifugado;
    private boolean adocao;
  
-public Animal(String nome,int idade) { 
+public Animal(int id,String nome,int idade) { 
 	this.setNome(nome); 
 	this.setIdade(idade);
+}
+
+public int getId() {
+	return id;
+}
+
+public void setId(int id) {
+	this.id = id;
 }
 public int getIdade() {
 	return idade;

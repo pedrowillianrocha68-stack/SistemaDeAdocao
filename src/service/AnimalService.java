@@ -1,4 +1,4 @@
-package view;
+package service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public abstract class AnimalService {
 		}
 		return null;
 	}
-	public boolean  atualizar(int index, animal novoAnimal) {
+	public boolean  atualizar(int index, Animal novoAnimal) {
 		if (index >= 0 && index < animais.size()) {
 			animais.set(index, novoAnimal);
 			return true;
@@ -25,7 +25,7 @@ public abstract class AnimalService {
 		return false;
 	}
 	public boolean remover(int index) {
-		if (index >= 0 && index < animal.size()) {
+		if (index >= 0 && index < animais.size()) {
 			animais.remove(index);
 			return true;
 		}

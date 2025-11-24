@@ -2,8 +2,8 @@ package model;
 
 public class Gato extends Animal{
 	
-	public Gato(String nome, int idade) {
-		super(nome, idade);
+	public Gato(int id, String nome, int idade) {
+		super(id,nome, idade);
 	}
 	@Override
 	public String emitirSom() {
